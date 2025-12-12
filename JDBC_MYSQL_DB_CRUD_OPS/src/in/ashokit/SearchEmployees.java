@@ -65,6 +65,7 @@ public class SearchEmployees {
 		}
 
 		con.close();
+		sc.close();
 	}
 
 }

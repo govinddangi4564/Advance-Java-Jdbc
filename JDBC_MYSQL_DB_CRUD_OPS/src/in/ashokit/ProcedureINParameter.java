@@ -30,5 +30,6 @@ public class ProcedureINParameter {
 		}
 
 		con.close();
+		sc.close();
 	}
 }

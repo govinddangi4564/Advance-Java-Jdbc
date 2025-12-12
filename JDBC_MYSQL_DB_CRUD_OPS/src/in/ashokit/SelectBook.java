@@ -26,9 +26,9 @@ public class SelectBook {
 //		it is for full table
 		
 		while(rs.next()) {
-			int bookId = rs.getInt("BOOK_ID");
-			String bookName = rs.getString("BOOK_NAME");
-			double price = rs.getDouble("BOOK_PRICE");
+//			int bookId = rs.getInt("BOOK_ID");
+//			String bookName = rs.getString("BOOK_NAME");
+//			double price = rs.getDouble("BOOK_PRICE");
 			
 //			System.out.println(bookId);
 //			System.out.println(bookName);

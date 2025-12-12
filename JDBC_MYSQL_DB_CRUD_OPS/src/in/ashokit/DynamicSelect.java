@@ -39,6 +39,7 @@ public class DynamicSelect {
 		}
 		
 		con.close();
+		sc.close();
 
 	}
 

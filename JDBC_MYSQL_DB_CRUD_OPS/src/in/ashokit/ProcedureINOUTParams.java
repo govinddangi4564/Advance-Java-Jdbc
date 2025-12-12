@@ -32,5 +32,6 @@ public class ProcedureINOUTParams {
 		}
 
 		con.close();
+		sc.close();
 	}
 }

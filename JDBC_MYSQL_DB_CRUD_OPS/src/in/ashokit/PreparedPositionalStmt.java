@@ -3,7 +3,6 @@ package in.ashokit;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.Statement;
 import java.util.Scanner;
 
 public class PreparedPositionalStmt {
@@ -39,5 +38,6 @@ public class PreparedPositionalStmt {
 		System.out.println("Rows Effected : " + count);
 		
 		con.close();
+		sc.close();
 	}
 }

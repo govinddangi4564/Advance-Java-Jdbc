@@ -1,10 +1,8 @@
 package in.ashokit;
 
 import java.sql.Connection;
-import java.sql.Driver;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.Scanner;
 
 public class HikeOnDept {
@@ -12,7 +10,7 @@ public class HikeOnDept {
 	private static final String DB_URL = "jdbc:mysql://localhost:3306/advjdb";
 	private static final String DB_UNAME = "root";
 	private static final String DB_PWD = "Govind";
-	private static final String SELECT_SQL = "SELECT * FROM EMPLOYEE";
+//	private static final String SELECT_SQL = "SELECT * FROM EMPLOYEE";
 
 	public static void main(String[] args) throws Exception {
 
@@ -57,6 +55,7 @@ public class HikeOnDept {
 
 		System.out.println("Update completed..............");
 		con.close();
+		sc.close();
 
 	}
 }

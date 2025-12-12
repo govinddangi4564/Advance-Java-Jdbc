@@ -1,11 +1,9 @@
 package in.ashokit;
 
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.SQLException;
 
 public class ImageInsert {
 	private static final String DB_URL = "jdbc:mysql://localhost:3306/advjdb";
